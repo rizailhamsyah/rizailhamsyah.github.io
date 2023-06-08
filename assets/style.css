@@ -1,0 +1,125 @@
+/* @font-face {
+    font-family: customFont;
+    src: url('assets/font/CenturyGothic.ttf');
+} */
+
+@font-face {
+    font-family: century-gothic;
+    src: url(./font/gothic.woff);
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    margin: 0px;
+    scroll-behavior: smooth;
+    font-family: century-gothic;
+}
+
+.gothic{
+    font-family: 'century-gothic';
+}
+
+.section{
+    margin:0px 0px 0px 0px;
+}
+
+.responsive-text {
+    text-align: left;
+    margin-left: -100px;
+}
+
+  @media screen and (max-width: 768px) {
+    .responsive-text {
+      text-align: center;
+      margin-left: 0px;
+    }
+  }
+
+.about-text {
+text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+    .about-text {
+        text-align: justify;
+    }
+}
+
+.vector {
+    min-height: 250px;
+    max-height: 250px;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width: 768px) {
+    .vector {
+        width: 60%;
+        margin-bottom: 0px;
+        display: relative;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 100%;
+        max-height: 200px;
+        justify-self: baseline;
+    }
+}
+
+.space-vector{
+    padding-bottom: 200px;
+}
+
+.bg-hero {
+  /* The image used */
+  background-image: url("./image/background.jpg");
+  height: 80vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.vertical-center {
+    min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+    min-height: 80vh; /* These two lines are counted as one :-)       */
+    display: flex;
+    align-items: center;
+}
+
+.bg-footer {
+    /* The image used */
+    background-image: url("./image/background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+
+.footer-text {
+    text-align: center;
+}
+
+  @media screen and (max-width: 768px) {
+    .footer-text {
+      text-align: center;
+    }
+}
+
+.footer-img {
+    margin-left: -100px;
+}
+
+@media screen and (max-width: 768px) {
+    .footer-img {
+        margin-left: -30px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .footer-img {
+        margin-left: -30px;
+    }
+}

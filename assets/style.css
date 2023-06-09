@@ -74,7 +74,7 @@ text-align: center;
 
 .bg-hero {
   /* The image used */
-  background-image: url("./image/background.jpg");
+  background-image: url("./image/background.webp");
   background-position: center top;
   background-repeat: no-repeat;
   background-size: cover;
